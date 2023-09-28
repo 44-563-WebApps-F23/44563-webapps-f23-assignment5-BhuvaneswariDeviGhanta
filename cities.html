@@ -15,6 +15,20 @@
 </head>
 <body>
   <h3>Visit cities with Bhuvaneswaridevi</h3>
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="cities.html">A Few Cities</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link"><a class="nav-link " href="basic.html">Basic</a></li>
+
+        <li class="nav-link"><a class="nav-link" href="advanced.html">Advanced</a></li>
+      </ul>
+    </div>
+  </nav>
   <div class="container">
     <div class="row">
     <div class="col-sm-2">G</div>
@@ -44,16 +58,16 @@
     </div>
     <div class="container">
 
-      <img src="Hyderabad.jpg" class="img-thumbnail" alt="Hyderabad" higth="200" width="200">
-      <img src="Anantapur.jpg" class="img-thumbnail" alt="Anantapur" hight="200" width="200">
-      <img src="Agra.jpg" class="img-thumbnail" alt="Agra" hight="200" width="200">
+      <img src="Hyderabad.jpg" class="img-thumbnail" alt="Hyderabad" higth="300" width="300">
+      <img src="Anantapur.jpg" class="img-thumbnail" alt="Anantapur" hight="300" width="300">
+      <img src="Agra.jpg" class="img-thumbnail" alt="Agra" hight="300" width="300">
       </div>
       <div class="container">
-        <table class="table table-striped">
+        <table class="table table-striped table-sm table-responsive table-hover">
          
           <caption> Table </caption>
           <thead>
-            <tr>
+            <tr class="table-dark">
               <th scope="col">#</th>
               <th scope="col">Letter</th>
               <th scope="col">City</th>
@@ -62,44 +76,44 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="table table-primary table-striped">
               <th scope="row">1</th>
               <td>G</td>
               <td>Gadag</td>
               <td>Ganga</td>
               <td>Grape</td>
             </tr>
-            <tr>
+            <tr class="table table-danger">
               <th scope="row">2</th>
               <td>H</td>
               <td>Hyderabad</td>
               <td>Halifax</td>
               <td>Hackberry</td>
             </tr>
-            <tr>
+            <tr class="table table-warning">
               <th scope="row">3</th>
               <td>A</td>
               <td>Anantapur</td>
               <td>Abita</td>
               <td>Aliso</td>
             </tr>
-            <tr>
+            <tr class="table table-success">
               <th scope="row">4</th>
               <td>N</td>
-              <td>Yewyork</td>
+              <td>Newyork</td>
               <td>Nabesna</td>
               <td>Nogal</td>
             
             </tr>
             
-            <tr>
+            <tr class="table table-secondary">
               <th scope="row">5</th>
               <td>T</td>
               <td>Tirupati</td>
               <td>Taiya</td>
               <td>Teak</td>
             </tr>
-            <tr>
+            <tr class="table table-info">
               <th scope="row">6</th>
               <td>A</td>
               <td>Araku</td>
@@ -112,20 +126,89 @@
         </table>
         <label>Button and Button groups</label>
         <div class="container btn-toolbar">
-          <div class="btn-group" role="group" aria-label="Imaged Insects">
+          <div class="btn-group" role="group" aria-label="First button group">
               <button class="btn btn-md btn-success" type="button">G</button>
               <button class="btn btn-md btn-success" type="button">H</button>
               <button class="btn btn-md btn-success" type="button">A</button>
           </div>
-          <div class="btn-group" role="group" aria-label="Lettered Insects">
+          <div class="btn-group" role="group" aria-label="Second button group">
               <button class="btn btn-md btn-warning" type="button">N</button>
               <button class="btn btn-md btn-warning" type="button">T</button>
           </div>
-          <div class="btn-group" role="group" aria-label="Remained Lettered Insect">
+          <div class="btn-group" role="group" aria-label="Third button group">
               <button class="btn btn-md btn-danger" type="button">A</button>
           </div>
       </div>     
-  
+      <br>
+      <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+                Menu
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="basic.html">Basic</a>
+                <a class="dropdown-item" href="advanced.html">Advanced</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <form action="">
+          <div class="form-group">
+              <label for="Email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="Email" 
+              aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Check email address</div>
+          </div>
+          <div class="form-group">
+              <label for="City" class="form-label">City</label>
+              <input type="text" class="form-control" id="City" 
+              placeholder="Enter your city">
+          </div>
+          <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="InsectCheck">
+              <label class="form-check-label" for="InsectCheck">Sign up for newsletter?</label>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+  </div>
+  <div class="card-group">
+    <div class="card">
+     
+      <img src="Agra.jpg" alt="image">
+      <div class="card-body">
+        <h2>Agra</h2>
+        <p>Agra (/ˈɑːɡrə/, Hindustani: [ˈaːgraː] ⓘ) is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the national capital Delhi and 330 km west of the state capital Lucknow.
+
+        </p>
+             <a href="https://en.wikipedia.org/wiki/Agra" class="btn btn-primary">wikipedia</a>
+      </div>
+     
+    
+    </div>
+    <div class="card">
+      
+      <img src="Anantapur.jpg" alt="image">
+      <h2>Anantapur</h2>
+      <div class="card-body">
+        <p>Anantapur, officially Anantapuramu,[8] is a city in Anantapur district of the Indian state of Andhra Pradesh. It is the mandal headquarters of Anantapuru mandal and also the divisional headquarters of Anantapur revenue division.[9] The city is located on National Highway.
+
+        </p>
+           <a href="https://en.wikipedia.org/wiki/Anantapur" class="btn btn-primary">wikipedia</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Hyderabad.jpg" alt="image">
+      <h2>Hyderabad</h2>
+      <div class="card-body">
+        <p> Hyderabad (/ˈhaɪdərəbæd/ ⓘ HY-dər-ə-bad;[5] Telugu: [ˈɦaɪ̯daraːbaːd], Urdu: [ˈɦɛːdəɾaːbaːd]) is the capital and largest city of the Indian state of Telangana. It occupies 650 km2 (250 sq mi) on the Deccan Plateau along the banks of the Musi River, in the northern part of Southern India
+
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Hyderabad" class="btn btn-primary">wikipedia</a>
+      </div>
+    </div>
+    </div>
+    </div>
+      
 
 
 
